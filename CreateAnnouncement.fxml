@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sdaproj.CreateAnnouncement">
+   <children>
+      <Pane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="206.0" layoutY="14.0" prefHeight="104.0" prefWidth="188.0" text="Creating an Announcement : " />
+            <Label layoutX="94.0" layoutY="147.0" text="Message: " />
+            <TextArea fx:id="announcement_ID" layoutX="164.0" layoutY="147.0" prefHeight="150.0" prefWidth="327.0" />
+            <Button layoutX="275.0" layoutY="334.0" mnemonicParsing="false" onAction="#createAnnouncement" text="Create" />
+            <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#goBack" text="Back" />
+            <TextArea fx:id="announcement_ID1" layoutX="162.0" layoutY="89.0" prefHeight="5.0" prefWidth="188.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

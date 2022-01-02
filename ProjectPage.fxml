@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sdaproj.ProjectPage">
+   <children>
+      <Pane layoutY="14.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="-14.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="14.0">
+         <children>
+            <Label layoutX="283.0" layoutY="37.0" prefHeight="24.0" prefWidth="57.0" text="Project: " />
+            <Label layoutX="141.0" layoutY="85.0" text="Name:" />
+            <Label layoutX="141.0" layoutY="138.0" text="Deadline:" />
+            <Label layoutX="134.0" layoutY="173.0" text="Description:" />
+            <Text fx:id="nameID" layoutX="254.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="193.0" />
+            <Text fx:id="deadlineID" layoutX="254.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="193.00000369548798" />
+            <Text fx:id="descID" layoutX="254.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="193.00000369548798" />
+            <Label layoutX="144.0" layoutY="225.0" text="Team: " />
+            <ListView fx:id="listID" layoutX="265.0" layoutY="218.0" prefHeight="149.0" prefWidth="137.0" />
+            <Button layoutX="22.0" layoutY="336.0" mnemonicParsing="false" onAction="#goBack" text="Back" />
+            <Button layoutX="477.0" layoutY="293.0" mnemonicParsing="false" onAction="#TaskCreate" prefHeight="51.0" prefWidth="96.0" text="Assign Task" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
